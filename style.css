@@ -13,3 +13,9 @@ height:40px;
 body{
     background:url("https://wallpaper-gallery.net/images/music-wallpapers-and-backgrounds/music-wallpapers-and-backgrounds-14.jpg");
 }
+#display{
+    display:flex;
+    justify-content:center;
+    justify-content:space-between;
+}
+

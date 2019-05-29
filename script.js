@@ -18,9 +18,9 @@ $.ajax({
         console.log(response[0].duration);
         console.log(response[0].uri);
         console.log(response[0]["artwork_url"]);
-        $("#display").append(response[0].title);
-         $("#display").append(response[0].artwork_url);
-          $("#display").append(response[0].duration);
+        $("#display").append("<p>" + response[0].title + "</p>");
+         $("#display").append("<img src=" + response[0].artwork_url + ">");
+          $("#display").append("<p>" + response[0].duration + "</p>");
     }
 });
 });
