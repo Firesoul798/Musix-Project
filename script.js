@@ -18,6 +18,9 @@ $.ajax({
         console.log(response[0].duration);
         console.log(response[0].uri);
         console.log(response[0]["artwork_url"]);
+        $("#display").append(response[0].title);
+         $("#display").append(response[0].artwork_url);
+          $("#display").append(response[0].duration);
     }
 });
 });
